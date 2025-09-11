@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 # Fix typo in import: should be DataIngestion not DataIngetion
-from src.components.data_ingestion import DataIngetion, DataIngestionConfig
+# from src.components.data_ingestion import DataIngetion, DataIngestionConfig
 
 from src.exception import CustomException
 from src.logger import logging
@@ -99,6 +99,7 @@ class DataTransformation:
                 file_path=self.data_transformation_config.preprocessor_obj_file_path,
                 obj=preprocessor_object
             )
+           
 
             return (
                 train_arr,
@@ -109,8 +110,8 @@ class DataTransformation:
         except Exception as e:
             raise CustomException(e, sys)
 
-if __name__ == "__main__":
-    obj = DataIngetion()  # Fixed typo in class name
-    train_data, test_data = obj.initiate_data_ingestion()
-    data_transformation = DataTransformation()
-    data_transformation.initiate_data_transformation(train_data, test_data)
+# if __name__ == "__main__":
+#     obj = DataIngetion()  # Fixed typo in class name
+#     train_data, test_data = obj.initiate_data_ingestion()
+#     data_transformation = DataTransformation()
+#     data_transformation.initiate_data_transformation(train_data, test_data)

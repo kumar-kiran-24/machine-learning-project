@@ -1,0 +1,4 @@
+2025-09-11 16:40:40,835 - INFO - root - data_ingestion.py:28 - Entered the data ingestion method or componet
+2025-09-11 16:40:40,838 - INFO - root - data_ingestion.py:31 - Read the data set as data frame
+2025-09-11 16:40:40,844 - INFO - root - data_ingestion.py:35 - Train test split inittiated
+2025-09-11 16:40:40,849 - INFO - root - data_ingestion.py:41 - Ingestion of the data is completed

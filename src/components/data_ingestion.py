@@ -1,13 +1,18 @@
 import os
 import sys
+import pandas as pd
+
+
 # Incorrect — missing argument, will cause error
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..")))
 from src.exception import CustomException
 from src.logger import logging
-import pandas as pd
+from src.components.data_transformation import DataTransformation,DataTransformationConfig
+
+from src.components.model_trainer import ModelTrainerConfig,ModelTrainer
 
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
+
 
 @dataclass# use for directly define class varible 
 class DataIngestionConfig:
@@ -45,5 +50,13 @@ class DataIngetion:
 
 
 if __name__ == "__main__":
-    obj = DataIngetion()  # if you're keeping the typo class name
-    obj.initiate_data_ingestion()
+    obj=DataIngetion()
+    train_path, test_path = obj.initiate_data_ingestion()
+
+    data_trannsformatiom=DataTransformation()
+    train_arr, test_arr, preprocessor_path = data_trannsformatiom.initiate_data_transformation(train_path, test_path)
+
+
+
+    modeltrainer=ModelTrainer()
+    print(modeltrainer._initiate_model_trainer(train_arr, test_arr))

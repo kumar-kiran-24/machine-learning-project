@@ -1,0 +1,10 @@
+2025-09-11 16:45:36,242 - INFO - root - data_ingestion.py:28 - Entered the data ingestion method or componet
+2025-09-11 16:45:36,246 - INFO - root - data_ingestion.py:31 - Read the data set as data frame
+2025-09-11 16:45:36,250 - INFO - root - data_ingestion.py:35 - Train test split inittiated
+2025-09-11 16:45:36,254 - INFO - root - data_ingestion.py:41 - Ingestion of the data is completed
+2025-09-11 16:45:36,287 - INFO - root - data_transformation.py:75 - Read train and test data completed
+2025-09-11 16:45:36,287 - INFO - root - data_transformation.py:77 - Obtaining the preprocessor object
+2025-09-11 16:45:36,288 - INFO - root - data_transformation.py:55 - Categorical columns encoding completed
+2025-09-11 16:45:36,288 - INFO - root - data_transformation.py:56 - Numerical columns encoding completed
+2025-09-11 16:45:36,289 - INFO - root - data_transformation.py:88 - Applying preprocessing object on training and testing dataframes
+2025-09-11 16:45:36,300 - INFO - root - data_transformation.py:96 - Saved preprocessing objects

@@ -1,0 +1,8 @@
+2025-09-11 18:11:37,207 - WARNING - werkzeug - _internal.py:97 -  * Debugger is active!
+2025-09-11 18:11:37,210 - INFO - werkzeug - _internal.py:97 -  * Debugger PIN: 593-551-896
+2025-09-11 18:11:43,304 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:11:43] "GET /predictdata HTTP/1.1" 200 -
+2025-09-11 18:11:54,093 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:11:54] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+2025-09-11 18:11:54,201 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:11:54] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-11 18:11:54,208 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:11:54] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-11 18:11:54,217 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:11:54] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=OKGML1ICOjSrzGzSfF1J HTTP/1.1" 200 -
+2025-09-11 18:11:54,238 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:11:54] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

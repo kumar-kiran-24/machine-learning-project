@@ -1,0 +1,45 @@
+2025-09-11 22:33:34,534 - INFO - werkzeug - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2025-09-11 22:33:34,534 - INFO - werkzeug - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-09-11 22:33:40,119 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 22:33:40] "GET / HTTP/1.1" 200 -
+2025-09-11 22:33:54,534 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 22:33:54] "[33mGET /succes/56 HTTP/1.1[0m" 404 -
+2025-09-11 22:34:24,503 - ERROR - app - app.py:875 - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\ml_projects\app.py", line 21, in predict_datapoint
+    return render_template('home.html')
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\ml_projects\templates\home.html", line 6, in top-level template code
+    <form action="{{ url_for('predictdata')}}" method="post">
+    ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'predictdata'. Did you mean 'predict_datapoint' instead?
+2025-09-11 22:34:24,620 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 22:34:24] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -

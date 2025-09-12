@@ -1,0 +1,4 @@
+2025-09-11 18:11:00,123 - WARNING - werkzeug - _internal.py:97 -  * Debugger is active!
+2025-09-11 18:11:00,124 - INFO - werkzeug - _internal.py:97 -  * Debugger PIN: 593-551-896
+2025-09-11 18:11:05,939 - INFO - werkzeug - _internal.py:97 -  * Detected change in 'C:\\ml_projects\\src\\pieline\\predict_pipeline.py', reloading
+2025-09-11 18:11:05,940 - INFO - werkzeug - _internal.py:97 -  * Detected change in 'C:\\ml_projects\\src\\pieline\\predict_pipeline.py', reloading

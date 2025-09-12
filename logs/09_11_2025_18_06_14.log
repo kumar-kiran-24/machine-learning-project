@@ -1,0 +1,15 @@
+2025-09-11 18:06:14,721 - INFO - werkzeug - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2025-09-11 18:06:14,721 - INFO - werkzeug - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-09-11 18:06:14,730 - INFO - werkzeug - _internal.py:97 -  * Restarting with watchdog (windowsapi)
+2025-09-11 18:06:38,743 - INFO - werkzeug - _internal.py:97 -  * Restarting with watchdog (windowsapi)
+2025-09-11 18:10:18,248 - INFO - werkzeug - _internal.py:97 -  * Restarting with watchdog (windowsapi)
+2025-09-11 18:10:39,237 - INFO - werkzeug - _internal.py:97 -  * Restarting with watchdog (windowsapi)
+2025-09-11 18:10:48,929 - INFO - werkzeug - _internal.py:97 -  * Restarting with watchdog (windowsapi)
+2025-09-11 18:10:58,613 - INFO - werkzeug - _internal.py:97 -  * Restarting with watchdog (windowsapi)
+2025-09-11 18:11:06,390 - INFO - werkzeug - _internal.py:97 -  * Restarting with watchdog (windowsapi)
+2025-09-11 18:11:09,303 - INFO - werkzeug - _internal.py:97 -  * Restarting with watchdog (windowsapi)
+2025-09-11 18:11:14,927 - INFO - werkzeug - _internal.py:97 -  * Restarting with watchdog (windowsapi)
+2025-09-11 18:11:17,684 - INFO - werkzeug - _internal.py:97 -  * Restarting with watchdog (windowsapi)

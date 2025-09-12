@@ -1,0 +1,4 @@
+2025-09-11 18:03:57,108 - WARNING - werkzeug - _internal.py:97 -  * Debugger is active!
+2025-09-11 18:03:57,111 - INFO - werkzeug - _internal.py:97 -  * Debugger PIN: 593-551-896
+2025-09-11 18:03:57,150 - INFO - werkzeug - _internal.py:97 -  * Detected change in 'C:\\Users\\kiran\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\ext.py', reloading
+2025-09-11 18:03:57,179 - INFO - werkzeug - _internal.py:97 -  * Detected change in 'C:\\Users\\kiran\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\utils.py', reloading

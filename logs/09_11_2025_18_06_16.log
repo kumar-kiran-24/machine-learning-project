@@ -1,0 +1,12 @@
+2025-09-11 18:06:16,407 - WARNING - werkzeug - _internal.py:97 -  * Debugger is active!
+2025-09-11 18:06:16,409 - INFO - werkzeug - _internal.py:97 -  * Debugger PIN: 593-551-896
+2025-09-11 18:06:26,304 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:06:26] "GET /predictdata HTTP/1.1" 200 -
+2025-09-11 18:06:38,103 - INFO - werkzeug - _internal.py:97 -  * Detected change in 'C:\\Users\\kiran\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\validation.py', reloading
+2025-09-11 18:06:38,108 - INFO - werkzeug - _internal.py:97 -  * Detected change in 'C:\\Users\\kiran\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\linear_model\\_base.py', reloading
+2025-09-11 18:06:38,130 - INFO - werkzeug - _internal.py:97 -  * Detected change in 'C:\\Users\\kiran\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\_array_api.py', reloading
+2025-09-11 18:06:38,159 - INFO - werkzeug - _internal.py:97 -  * Detected change in 'C:\\Users\\kiran\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\generic.py', reloading
+2025-09-11 18:06:38,171 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:06:38] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+2025-09-11 18:06:38,307 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:06:38] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-11 18:06:38,308 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:06:38] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-11 18:06:38,338 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:06:38] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=q9Q6Jzh4K9lUE508Dhk7 HTTP/1.1" 200 -
+2025-09-11 18:06:38,355 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:06:38] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

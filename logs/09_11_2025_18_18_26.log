@@ -1,0 +1,26 @@
+2025-09-11 18:18:26,707 - INFO - werkzeug - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2025-09-11 18:18:26,707 - INFO - werkzeug - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-09-11 18:18:35,651 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:18:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-11 18:18:37,973 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:18:37] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-09-11 18:18:38,983 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:18:38] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-09-11 18:18:39,954 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:18:39] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-09-11 18:18:42,610 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:18:42] "GET /predictdata HTTP/1.1" 200 -
+2025-09-11 18:18:55,385 - ERROR - app - app.py:875 - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kiran\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\ml_projects\app.py", line 41, in predict_datapoint
+    return render_template('home.html',results=results[0])
+                                               ~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-09-11 18:18:55,387 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [11/Sep/2025 18:18:55] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -

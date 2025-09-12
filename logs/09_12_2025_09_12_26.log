@@ -1,0 +1,11 @@
+2025-09-12 09:12:27,405 - INFO - werkzeug - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.157.35:5000
+2025-09-12 09:12:27,405 - INFO - werkzeug - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-09-12 09:12:33,701 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [12/Sep/2025 09:12:33] "POST /predict HTTP/1.1" 200 -
+2025-09-12 09:12:39,813 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [12/Sep/2025 09:12:39] "POST /predict HTTP/1.1" 200 -
+2025-09-12 09:12:59,170 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [12/Sep/2025 09:12:59] "POST /predict HTTP/1.1" 200 -
+2025-09-12 09:13:44,881 - INFO - werkzeug - _internal.py:97 - 192.168.157.35 - - [12/Sep/2025 09:13:44] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-12 09:13:44,931 - INFO - werkzeug - _internal.py:97 - 192.168.157.35 - - [12/Sep/2025 09:13:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 09:13:55,518 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [12/Sep/2025 09:13:55] "[33mGET / HTTP/1.1[0m" 404 -

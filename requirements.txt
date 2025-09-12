@@ -1,5 +1,9 @@
 pandas
 numpy
 seaborn
+sklearn
+matplotlib
+sns
+
 
 

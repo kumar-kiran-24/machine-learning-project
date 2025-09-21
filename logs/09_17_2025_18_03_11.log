@@ -1,0 +1,7 @@
+2025-09-17 18:03:13,126 - INFO - werkzeug - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2025-09-17 18:03:13,126 - INFO - werkzeug - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-09-17 18:03:16,197 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:03:16] "POST /predict HTTP/1.1" 200 -
+2025-09-17 18:03:16,275 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:03:16] "GET /static/style.css HTTP/1.1" 200 -

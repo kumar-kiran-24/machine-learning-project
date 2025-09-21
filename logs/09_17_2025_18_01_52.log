@@ -1,0 +1,17 @@
+2025-09-17 18:01:53,520 - INFO - werkzeug - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2025-09-17 18:01:53,521 - INFO - werkzeug - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-09-17 18:01:54,588 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:01:54] "GET /predict HTTP/1.1" 200 -
+2025-09-17 18:01:54,597 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:01:54] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-09-17 18:01:56,054 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:01:56] "GET /predict HTTP/1.1" 200 -
+2025-09-17 18:01:56,065 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:01:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-09-17 18:01:56,552 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:01:56] "GET /predict HTTP/1.1" 200 -
+2025-09-17 18:01:56,563 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:01:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-09-17 18:01:56,707 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:01:56] "GET /predict HTTP/1.1" 200 -
+2025-09-17 18:01:56,717 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:01:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-09-17 18:01:56,971 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:01:56] "GET /predict HTTP/1.1" 200 -
+2025-09-17 18:01:56,979 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:01:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-09-17 18:02:07,466 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:02:07] "POST /predict HTTP/1.1" 200 -
+2025-09-17 18:02:07,479 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [17/Sep/2025 18:02:07] "[33mGET /static/style.css HTTP/1.1[0m" 404 -

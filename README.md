@@ -104,8 +104,11 @@ machine-learning-project/
 
 git clone https://github.com/kumar-kiran-24/machine-learning-project
 cd machine-learning-project
+pip install -r requirments.txt
+
 python app.py
 ```
+
 
 
 

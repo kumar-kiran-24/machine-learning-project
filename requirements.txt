@@ -3,6 +3,8 @@ numpy
 seaborn
 scikit-learn
 matplotlib
+dill
+
 
 
 

@@ -1,0 +1,14 @@
+2025-11-16 22:10:05,493 - INFO - werkzeug - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.19.17.225:5000
+2025-11-16 22:10:05,494 - INFO - werkzeug - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-11-16 22:10:07,430 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [16/Nov/2025 22:10:07] "GET / HTTP/1.1" 200 -
+2025-11-16 22:10:09,642 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [16/Nov/2025 22:10:09] "GET /predictdata HTTP/1.1" 200 -
+2025-11-16 22:10:24,773 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [16/Nov/2025 22:10:24] "POST /predictdata HTTP/1.1" 200 -
+2025-11-16 22:11:03,649 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [16/Nov/2025 22:11:03] "POST /predictdata HTTP/1.1" 200 -
+2025-11-16 22:11:05,615 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [16/Nov/2025 22:11:05] "GET / HTTP/1.1" 200 -
+2025-11-16 22:13:09,530 - INFO - werkzeug - _internal.py:97 - 127.0.0.1 - - [16/Nov/2025 22:13:09] "GET /predictdata HTTP/1.1" 200 -
+2025-11-16 22:13:59,628 - INFO - werkzeug - _internal.py:97 - 192.19.17.225 - - [16/Nov/2025 22:13:59] "GET / HTTP/1.1" 200 -
+2025-11-16 22:13:59,691 - INFO - werkzeug - _internal.py:97 - 192.19.17.225 - - [16/Nov/2025 22:13:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-16 22:15:24,925 - INFO - werkzeug - _internal.py:97 - 192.19.17.225 - - [16/Nov/2025 22:15:24] "GET /predictdata HTTP/1.1" 200 -
